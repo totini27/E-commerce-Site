@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<meta charset="utf-8">
+	
+	<title>Hello JS</title>
+	<!--<script src="a.js"></script> -->
+</head>
+
+<body>
+	<input type="text" name="username" id="username">
+	<button onclick="submit()">submit</button>
+
+
+	<h1 id= "test"></h1>
+	<script>
+		function submit(){
+			document.getElementById('test').innerText = document.getElementById('username').value;
+		}
+	</script>	
+</body>
+</html>

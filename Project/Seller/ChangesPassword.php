@@ -8,7 +8,8 @@
 </style>
 </head>
 <body>
-	<?php
+	<?php 
+
 	$currentPass = "Totini@27";
 	$newPass = $reType = $currentPass1 = "";
 	$currentPassErr = $newPassErr = $reTypePassErr = "";
